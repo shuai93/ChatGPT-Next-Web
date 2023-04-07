@@ -140,22 +140,22 @@ export function Settings(props: { closeSettings: () => void }) {
           </div>
         </div>
         <div className={styles["window-actions"]}>
-          <div className={styles["window-action-button"]}>
+          {/* <div className={styles["window-action-button"]}>
             <IconButton
               icon={<ClearIcon />}
               onClick={clearSessions}
               bordered
               title={Locale.Settings.Actions.ClearAll}
             />
-          </div>
-          <div className={styles["window-action-button"]}>
+          </div> */}
+          {/* <div className={styles["window-action-button"]}>
             <IconButton
               icon={<ResetIcon />}
               onClick={resetConfig}
               bordered
               title={Locale.Settings.Actions.ResetAll}
             />
-          </div>
+          </div> */}
           <div className={styles["window-action-button"]}>
             <IconButton
               icon={<CloseIcon />}
@@ -203,7 +203,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 : Locale.Settings.Update.IsLatest
             }
           >
-            {checkingUpdate ? (
+            {/* {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
               <Link href={UPDATE_URL} target="_blank" className="link">
@@ -215,7 +215,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 text={Locale.Settings.Update.CheckUpdate}
                 onClick={() => checkUpdate(true)}
               />
-            )}
+            )} */}
           </SettingItem>
 
           <SettingItem title={Locale.Settings.SendKey}>

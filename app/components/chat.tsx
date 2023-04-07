@@ -60,9 +60,10 @@ export function Avatar(props: { role: Message["role"] }) {
   }
 
   return (
-    <div className={styles["user-avtar"]}>
-      <Emoji unified={config.avatar} size={18} getEmojiUrl={getEmojiUrl} />
-    </div>
+    <div> </div>
+    // <div className={styles["user-avtar"]}>
+    //  <Emoji unified={config.avatar} size={18} getEmojiUrl={getEmojiUrl} />
+    // </div>
   );
 }
 
@@ -134,16 +135,17 @@ function PromptToast(props: {
   return (
     <div className={chatStyle["prompt-toast"]} key="prompt-toast">
       {props.showToast && (
-        <div
-          className={chatStyle["prompt-toast-inner"] + " clickable"}
-          role="button"
-          onClick={() => props.setShowModal(true)}
-        >
-          <BrainIcon />
-          <span className={chatStyle["prompt-toast-content"]}>
-            {Locale.Context.Toast(context.length)}
-          </span>
-        </div>
+        <div></div>
+        // <div
+        //   className={chatStyle["prompt-toast-inner"] + " clickable"}
+        //   role="button"
+        //   onClick={() => props.setShowModal(true)}
+        // >
+        //   <BrainIcon />
+        //   <span className={chatStyle["prompt-toast-content"]}>
+        //     {Locale.Context.Toast(context.length)}
+        //   </span>
+        // </div>
       )}
       {props.showModal && (
         <div className="modal-mask">
@@ -538,7 +540,7 @@ export function Chat(props: {
               onClick={props?.showSideBar}
             />
           </div>
-          <div className={styles["window-action-button"]}>
+          {/* <div className={styles["window-action-button"]}>
             <IconButton
               icon={<BrainIcon />}
               bordered
@@ -547,8 +549,8 @@ export function Chat(props: {
                 setShowPromptModal(true);
               }}
             />
-          </div>
-          <div className={styles["window-action-button"]}>
+          </div> */}
+          {/* <div className={styles["window-action-button"]}>
             <IconButton
               icon={<ExportIcon />}
               bordered
@@ -560,7 +562,7 @@ export function Chat(props: {
                 );
               }}
             />
-          </div>
+          </div> */}
         </div>
 
         <PromptToast
@@ -615,7 +617,7 @@ export function Chat(props: {
                             className={styles["chat-message-top-action"]}
                             onClick={() => onResend(i)}
                           >
-                            {Locale.Chat.Actions.Retry}
+                            {/* {Locale.Chat.Actions.Retry} */}
                           </div>
                         )}
 
@@ -623,7 +625,7 @@ export function Chat(props: {
                           className={styles["chat-message-top-action"]}
                           onClick={() => copyToClipboard(message.content)}
                         >
-                          {Locale.Chat.Actions.Copy}
+                          {/* {Locale.Chat.Actions.Copy} */}
                         </div>
                       </div>
                     )}
