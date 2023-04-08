@@ -216,6 +216,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 : Locale.Settings.Update.IsLatest
             }
           >
+            <></>
             {/* {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
