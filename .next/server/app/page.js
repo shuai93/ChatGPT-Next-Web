@@ -559,7 +559,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9312:
+/***/ 4979:
 /***/ (() => {
 
 
@@ -1169,7 +1169,7 @@ var home_module_default = /*#__PURE__*/__webpack_require__.n(home_module);
 var chat_module = __webpack_require__(3493);
 var chat_module_default = /*#__PURE__*/__webpack_require__.n(chat_module);
 // EXTERNAL MODULE: ./app/components/ui-lib.tsx + 1 modules
-var ui_lib = __webpack_require__(5818);
+var ui_lib = __webpack_require__(198);
 ;// CONCATENATED MODULE: ./app/components/chat.tsx
 
 
@@ -2004,7 +2004,7 @@ function Loading(props) {
         ]
     });
 }
-const Settings = app_dynamic_default()(async ()=>(await Promise.all(/* import() */[__webpack_require__.e(480), __webpack_require__.e(234)]).then(__webpack_require__.bind(__webpack_require__, 9234))).Settings, {
+const Settings = app_dynamic_default()(async ()=>(await Promise.all(/* import() */[__webpack_require__.e(480), __webpack_require__.e(296)]).then(__webpack_require__.bind(__webpack_require__, 2296))).Settings, {
     loadableGenerated: {
         modules: [
             "/Users/shuai.yang1/myself/ChatGPT-Next-Web/app/components/home.tsx -> " + "./settings"
@@ -2171,7 +2171,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 5818:
+/***/ 198:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2517,7 +2517,7 @@ const cn = {
         },
         AccessCode: {
             Title: "访问密码",
-            SubTitle: "密码有效期1个月，激活当天开始计算",
+            SubTitle: "",
             Placeholder: "请输入访问密码"
         },
         Model: "模型 (model)",
@@ -3301,7 +3301,7 @@ if (!Array.prototype.at) {
 /* harmony export */ });
 /* unused harmony exports requestOpenaiClient, requestChat */
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6388);
-/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5818);
+/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(198);
 
 
 const TIME_OUT_MS = 30000;
@@ -3493,7 +3493,7 @@ const ControllerPool = {
 /* harmony import */ var _requests__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6154);
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(172);
 /* harmony import */ var _locales__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4708);
-/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5818);
+/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(198);
 
 
 
@@ -4144,7 +4144,7 @@ const usePromptStore = (0,zustand__WEBPACK_IMPORTED_MODULE_2__/* .create */ .Ue)
 /* harmony export */   "w1": () => (/* binding */ getCurrentVersion)
 /* harmony export */ });
 /* unused harmony exports downloadAs, isIOS, isFirefox */
-/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5818);
+/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(198);
 /* harmony import */ var _locales__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4708);
 
 

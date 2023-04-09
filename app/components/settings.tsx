@@ -206,7 +206,7 @@ export function Settings(props: { closeSettings: () => void }) {
             </Popover>
           </SettingItem>
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Update.Version(currentId)}
             subTitle={
               checkingUpdate
@@ -216,8 +216,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 : Locale.Settings.Update.IsLatest
             }
           >
-            <></>
-            {/* {checkingUpdate ? (
+            {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
               <Link href={UPDATE_URL} target="_blank" className="link">
@@ -229,8 +228,8 @@ export function Settings(props: { closeSettings: () => void }) {
                 text={Locale.Settings.Update.CheckUpdate}
                 onClick={() => checkUpdate(true)}
               />
-            )} */}
-          </SettingItem>
+            )}
+          </SettingItem> */}
 
           <SettingItem title={Locale.Settings.SendKey}>
             <select
@@ -346,7 +345,7 @@ export function Settings(props: { closeSettings: () => void }) {
             ></input>
           </SettingItem>
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Prompt.List}
             subTitle={Locale.Settings.Prompt.ListCount(
               builtinCount,
@@ -358,7 +357,7 @@ export function Settings(props: { closeSettings: () => void }) {
               text={Locale.Settings.Prompt.Edit}
               onClick={() => showToast(Locale.WIP)}
             />
-          </SettingItem>
+          </SettingItem> */}
         </List>
         <List>
           {enabledAccessControl ? (
