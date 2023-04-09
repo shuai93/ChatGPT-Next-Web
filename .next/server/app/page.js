@@ -36,6 +36,22 @@ module.exports = require("next/dist/compiled/react/jsx-runtime");
 
 /***/ }),
 
+/***/ 3918:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/amp-context.js");
+
+/***/ }),
+
+/***/ 5732:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/amp-mode.js");
+
+/***/ }),
+
 /***/ 3280:
 /***/ ((module) => {
 
@@ -44,11 +60,51 @@ module.exports = require("next/dist/shared/lib/app-router-context.js");
 
 /***/ }),
 
+/***/ 2796:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
 /***/ 9274:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/hooks-client-context.js");
+
+/***/ }),
+
+/***/ 4486:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-blur-svg.js");
+
+/***/ }),
+
+/***/ 744:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config-context.js");
+
+/***/ }),
+
+/***/ 5843:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config.js");
+
+/***/ }),
+
+/***/ 9552:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
@@ -97,6 +153,22 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html.js");
+
+/***/ }),
+
+/***/ 2470:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
+/***/ 618:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
@@ -487,18 +559,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6515:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7080));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5900))
-
-/***/ }),
-
-/***/ 4979:
+/***/ 9312:
 /***/ (() => {
 
 
+
+/***/ }),
+
+/***/ 1757:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5900));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8996))
 
 /***/ }),
 
@@ -1097,7 +1169,7 @@ var home_module_default = /*#__PURE__*/__webpack_require__.n(home_module);
 var chat_module = __webpack_require__(3493);
 var chat_module_default = /*#__PURE__*/__webpack_require__.n(chat_module);
 // EXTERNAL MODULE: ./app/components/ui-lib.tsx + 1 modules
-var ui_lib = __webpack_require__(198);
+var ui_lib = __webpack_require__(5818);
 ;// CONCATENATED MODULE: ./app/components/chat.tsx
 
 
@@ -1817,7 +1889,7 @@ class ErrorBoundary extends (react_default()).Component {
 
 /***/ }),
 
-/***/ 7080:
+/***/ 8996:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1881,37 +1953,6 @@ var SvgSettings = function SvgSettings(props) {
   }))));
 };
 /* harmony default export */ const settings = (SvgSettings);
-;// CONCATENATED MODULE: ./app/icons/chatgpt.svg
-var chatgpt_defs, chatgpt_mask;
-function chatgpt_extends() { chatgpt_extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return chatgpt_extends.apply(this, arguments); }
-
-var SvgChatgpt = function SvgChatgpt(props) {
-  return /*#__PURE__*/react_.createElement("svg", chatgpt_extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: 43,
-    height: 44,
-    fill: "none"
-  }, props), chatgpt_defs || (chatgpt_defs = /*#__PURE__*/react_.createElement("defs", null, /*#__PURE__*/react_.createElement("path", {
-    id: "chatgpt_svg__a",
-    d: "M0 0h43v43.58H0z"
-  }))), /*#__PURE__*/react_.createElement("g", null, chatgpt_mask || (chatgpt_mask = /*#__PURE__*/react_.createElement("mask", {
-    id: "chatgpt_svg__b",
-    fill: "#fff"
-  }, /*#__PURE__*/react_.createElement("use", {
-    xlinkHref: "#chatgpt_svg__a"
-  }))), /*#__PURE__*/react_.createElement("g", {
-    mask: "url(#chatgpt_svg__b)"
-  }, /*#__PURE__*/react_.createElement("path", {
-    fillRule: "evenodd",
-    style: {
-      fill: "#8bcae0"
-    },
-    opacity: 0.27,
-    d: "M40.17 17.84c.36-1.11.55-2.27.55-3.43 0-1.93-.51-3.83-1.49-5.49a10.98 10.98 0 0 0-9.52-5.51c-.77 0-1.55.08-2.3.24A10.868 10.868 0 0 0 19.29 0h-.1c-4.76 0-8.98 3.07-10.45 7.6-3.06.63-5.71 2.55-7.26 5.27a10.993 10.993 0 0 0 1.35 12.87c-.36 1.11-.55 2.27-.55 3.43 0 1.93.51 3.83 1.49 5.49a10.97 10.97 0 0 0 11.82 5.27c2.06 2.32 5.02 3.65 8.12 3.65h.1c4.76 0 8.99-3.07 10.45-7.61a10.82 10.82 0 0 0 7.26-5.26 10.995 10.995 0 0 0-1.35-12.87ZM18.817 38.695c-.09.05-.17.1-.26.15a8.145 8.145 0 0 0 5.22 1.89h.01c4.5-.01 8.15-3.67 8.16-8.17v-10.13a.153.153 0 0 0-.07-.1l-3.67-2.12v12.24c0 .51-.27.98-.72 1.23l-8.67 5.01Zm-1.424-2.472 8.77-5.06c.04-.03.06-.07.06-.11h-.01v-4.24l-10.59 6.12c-.44.25-.98.25-1.42 0l-8.68-5.01c-.08-.05-.2-.12-.26-.16a8.19 8.19 0 0 0 .97 5.47 8.18 8.18 0 0 0 7.08 4.08c1.43 0 2.84-.37 4.08-1.09Zm-9.187-25.21v-.3c-1.79.66-3.3 1.93-4.25 3.58a8.226 8.226 0 0 0-1.09 4.08c0 2.92 1.55 5.61 4.08 7.07l8.77 5.07c.04.02.09.02.12-.01l3.67-2.12-10.59-6.11c-.44-.25-.71-.72-.71-1.23v-10.03Zm27.849 7.117-8.77-5.07a.126.126 0 0 0-.12.01l-3.67 2.12 10.59 6.12c.44.25.71.71.71 1.22v10.33a8.168 8.168 0 0 0 5.35-7.66 8.16 8.16 0 0 0-4.09-7.07Zm-19.22-5.718a.16.16 0 0 0-.05.11v4.24l10.59-6.12c.22-.12.47-.19.72-.19s.49.07.71.19l8.68 5.02c.08.05.17.1.25.15.08-.46.12-.92.12-1.38 0-4.51-3.66-8.17-8.17-8.17-1.43 0-2.83.38-4.08 1.09l-8.77 5.06ZM19.22 2.85c-4.51 0-8.17 3.65-8.17 8.16v10.13c.01.05.03.08.07.1l3.67 2.12.01-12.23v-.01c0-.5.27-.97.71-1.22l8.68-5.01c.07-.05.19-.11.25-.15a8.145 8.145 0 0 0-5.22-1.89ZM16.783 24.51l4.72 2.73 4.72-2.73v-5.45l-4.72-2.72-4.72 2.73v5.44Z"
-  }))));
-};
-/* harmony default export */ const chatgpt = (SvgChatgpt);
 // EXTERNAL MODULE: ./app/icons/bot.svg
 var bot = __webpack_require__(3106);
 // EXTERNAL MODULE: ./app/icons/add.svg
@@ -1933,6 +1974,9 @@ var app_dynamic = __webpack_require__(6101);
 var app_dynamic_default = /*#__PURE__*/__webpack_require__.n(app_dynamic);
 // EXTERNAL MODULE: ./app/components/error.tsx + 1 modules
 var error = __webpack_require__(6667);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(8421);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./app/components/home.tsx
 
 __webpack_require__(25);
@@ -1960,7 +2004,7 @@ function Loading(props) {
         ]
     });
 }
-const Settings = app_dynamic_default()(async ()=>(await Promise.all(/* import() */[__webpack_require__.e(480), __webpack_require__.e(503)]).then(__webpack_require__.bind(__webpack_require__, 8503))).Settings, {
+const Settings = app_dynamic_default()(async ()=>(await Promise.all(/* import() */[__webpack_require__.e(480), __webpack_require__.e(234)]).then(__webpack_require__.bind(__webpack_require__, 9234))).Settings, {
     loadableGenerated: {
         modules: [
             "/Users/shuai.yang1/myself/ChatGPT-Next-Web/app/components/home.tsx -> " + "./settings"
@@ -2041,12 +2085,16 @@ function _Home() {
                                 children: "AI Assistant"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: (home_module_default())["sidebar-sub-title"],
-                                children: "Build your own AI assistant."
+                                className: (home_module_default())["sidebar-sub-title"]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (home_module_default())["sidebar-logo"],
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(chatgpt, {})
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/wechat.png",
+                                    alt: "",
+                                    width: 50,
+                                    height: 50
+                                })
                             })
                         ]
                     }),
@@ -2123,7 +2171,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 198:
+/***/ 5818:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2469,7 +2517,7 @@ const cn = {
         },
         AccessCode: {
             Title: "访问密码",
-            SubTitle: "现在是未授权访问状态",
+            SubTitle: "密码有效期1个月，激活当天开始计算",
             Placeholder: "请输入访问密码"
         },
         Model: "模型 (model)",
@@ -3253,7 +3301,7 @@ if (!Array.prototype.at) {
 /* harmony export */ });
 /* unused harmony exports requestOpenaiClient, requestChat */
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6388);
-/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(198);
+/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5818);
 
 
 const TIME_OUT_MS = 30000;
@@ -3433,21 +3481,19 @@ const ControllerPool = {
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "K$": () => (/* binding */ ROLES),
-/* harmony export */   "L": () => (/* binding */ ALL_MODELS),
 /* harmony export */   "Q2": () => (/* binding */ Theme),
-/* harmony export */   "Xm": () => (/* binding */ ModalConfigValidator),
 /* harmony export */   "aK": () => (/* binding */ useChatStore),
 /* harmony export */   "mQ": () => (/* binding */ SubmitKey),
 /* harmony export */   "tn": () => (/* binding */ createMessage),
 /* harmony export */   "ux": () => (/* binding */ BOT_HELLO)
 /* harmony export */ });
-/* unused harmony exports limitNumber, limitModel */
+/* unused harmony exports ALL_MODELS, limitNumber, limitModel, ModalConfigValidator */
 /* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3998);
 /* harmony import */ var zustand_middleware__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8658);
 /* harmony import */ var _requests__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6154);
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(172);
 /* harmony import */ var _locales__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4708);
-/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(198);
+/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5818);
 
 
 
@@ -3880,9 +3926,7 @@ const useChatStore = (0,zustand__WEBPACK_IMPORTED_MODULE_4__/* .create */ .Ue)()
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "L": () => (/* reexport */ app/* ALL_MODELS */.L),
   "ux": () => (/* reexport */ app/* BOT_HELLO */.ux),
-  "Xm": () => (/* reexport */ app/* ModalConfigValidator */.Xm),
   "K$": () => (/* reexport */ app/* ROLES */.K$),
   "mQ": () => (/* reexport */ app/* SubmitKey */.mQ),
   "Q2": () => (/* reexport */ app/* Theme */.Q2),
@@ -3892,7 +3936,7 @@ __webpack_require__.d(__webpack_exports__, {
   "u2": () => (/* reexport */ useUpdateStore)
 });
 
-// UNUSED EXPORTS: ACCESS_KEY, UPDATE_KEY, limitModel, limitNumber
+// UNUSED EXPORTS: ACCESS_KEY, ALL_MODELS, ModalConfigValidator, UPDATE_KEY, limitModel, limitNumber
 
 // EXTERNAL MODULE: ./app/store/app.ts
 var app = __webpack_require__(2361);
@@ -4100,7 +4144,7 @@ const usePromptStore = (0,zustand__WEBPACK_IMPORTED_MODULE_2__/* .create */ .Ue)
 /* harmony export */   "w1": () => (/* binding */ getCurrentVersion)
 /* harmony export */ });
 /* unused harmony exports downloadAs, isIOS, isFirefox */
-/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(198);
+/* harmony import */ var _components_ui_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5818);
 /* harmony import */ var _locales__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4708);
 
 
@@ -4242,7 +4286,7 @@ function autoGrowTextArea(dom) {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [359,49], () => (__webpack_exec__(5324)));
+var __webpack_exports__ = __webpack_require__.X(0, [359,523], () => (__webpack_exec__(5324)));
 module.exports = __webpack_exports__;
 
 })();

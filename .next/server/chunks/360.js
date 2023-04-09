@@ -839,7 +839,7 @@ Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
 exports.addPathPrefix = addPathPrefix;
-var _parsePath = __webpack_require__(5818);
+var _parsePath = __webpack_require__(2119);
 function addPathPrefix(path, prefix) {
     if (!path.startsWith("/") || !prefix) {
         return path;
@@ -859,7 +859,7 @@ Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
 exports.addPathSuffix = addPathSuffix;
-var _parsePath = __webpack_require__(5818);
+var _parsePath = __webpack_require__(2119);
 function addPathSuffix(path, suffix) {
     if (!path.startsWith("/") || !suffix) {
         return path;
@@ -937,7 +937,7 @@ function getNextPathnameInfo(pathname, options) {
 
 /***/ }),
 
-/***/ 5818:
+/***/ 2119:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -974,7 +974,7 @@ Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
 exports.pathHasPrefix = pathHasPrefix;
-var _parsePath = __webpack_require__(5818);
+var _parsePath = __webpack_require__(2119);
 function pathHasPrefix(path, prefix) {
     if (typeof path !== "string") {
         return false;

@@ -24,6 +24,7 @@ import { Chat } from "./chat";
 import dynamic from "next/dynamic";
 import { REPO_URL } from "../constant";
 import { ErrorBoundary } from "./error";
+import Image from "next/image";
 
 export function Loading(props: { noLogo?: boolean }) {
   return (
@@ -120,14 +121,12 @@ function _Home() {
       >
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>AI Assistant</div>
-          <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
-          </div>
+          <div className={styles["sidebar-sub-title"]}></div>
           <div className={styles["sidebar-logo"]}>
-            <ChatGptIcon />
+            {/* <ChatGptIcon /> */}
+            <Image src={"/wechat.png"} alt="" width={50} height={50}></Image>
           </div>
         </div>
-
         <div
           className={styles["sidebar-body"]}
           onClick={() => {

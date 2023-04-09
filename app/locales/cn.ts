@@ -120,7 +120,7 @@ const cn = {
     },
     AccessCode: {
       Title: "访问密码",
-      SubTitle: "现在是未授权访问状态",
+      SubTitle: "密码有效期1个月，激活当天开始计算",
       Placeholder: "请输入访问密码",
     },
     Model: "模型 (model)",
